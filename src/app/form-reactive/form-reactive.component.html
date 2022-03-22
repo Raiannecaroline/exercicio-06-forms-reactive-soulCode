@@ -1,0 +1,171 @@
+<div class="wrapper">
+
+  <mat-card class="container">
+  
+    <mat-card-content class="form">
+
+      <mat-card-header>
+        <mat-card-title>Cadastre-se!</mat-card-title>
+      </mat-card-header>
+
+      <form id="form-container">
+  
+        <div class="form">
+  
+          <mat-form-field appearance="fill">
+            <mat-label>Nome</mat-label>
+            <input 
+            matInput 
+            type="text" 
+            placeholder="Digite seu nome.." 
+            required
+            minlength="3">
+  
+            <mat-error>
+              <span>
+                Quantidade errada de caracteres - (mínimo 3)
+              </span>
+            </mat-error>
+          </mat-form-field>
+             
+          <mat-form-field appearance="fill">
+            <mat-label>Sobrenome</mat-label>
+            <input 
+            type="text" 
+            matInput 
+            placeholder="Digite seu sobrenome.." 
+            required 
+            minlength="3">
+  
+            <mat-error>
+              <span>
+                Quantidade errada de caracteres - (mínimo 3)
+              </span>
+            </mat-error>
+          </mat-form-field>
+  
+          <mat-form-field>
+            <mat-label>Username</mat-label>
+            <input 
+            type="text" 
+            matInput 
+            placeholder="Digite seu Username.." 
+            required 
+            minlength="4">
+  
+            <mat-error>
+              <span>
+                Quantidade errada de caracteres - (mínimo 4)
+              </span>
+            </mat-error>
+          </mat-form-field>
+  
+          <mat-form-field>
+            <mat-label>CPF</mat-label>
+            <input 
+            type="text" 
+            matInput 
+            placeholder="Digite seu CPF..." 
+            required 
+            minlength="11">
+  
+            <mat-error>
+              <span>
+                Quantidade errada de caracteres - (mínimo 11)
+              </span>
+            </mat-error>
+          </mat-form-field>
+  
+          <mat-form-field>
+            <mat-label>Telefone</mat-label>
+            <input 
+            type="tel" 
+            matInput
+            placeholder="Digite o seu telefone.." 
+            required 
+            minlength="11">
+  
+            <mat-error>
+              <span>
+                Quantidade errada de numeros - (mínimo 11)
+              </span>
+            </mat-error>
+          </mat-form-field>
+  
+  
+          <mat-form-field>
+            <mat-label>Endereço</mat-label>
+            <input 
+            type="text" 
+            matInput 
+            placeholder="Digite o seu endereço.." 
+            required 
+            minlength="5">
+  
+            <mat-error>
+              <span>
+                Quantidade errada de caracteres - (mínimo 5)
+              </span>
+            </mat-error>
+          </mat-form-field>
+  
+          <mat-form-field>
+            <mat-label>Complemento</mat-label>
+            <input 
+            type="text" 
+            matInput 
+            placeholder="Digite o complemento (apt, andar, ponto de referência e etc) .."
+            required 
+            minlength="5">
+  
+            <mat-error>
+              <span>
+                Quantidade errada de caracteres - (mínimo 5)
+              </span>
+            </mat-error>
+          </mat-form-field>
+  
+          <mat-form-field>
+            <mat-label>Senha</mat-label>
+            <input type="password"
+            matInput 
+            placeholder="Digite a sua senha..."
+            required
+            minlenght="6">
+  
+            <mat-error>
+              <span>
+                Quantidade errada de caracteres - (mínimo 6)
+              </span>
+            </mat-error>
+          </mat-form-field>
+  
+          <mat-form-field>
+            <mat-label>Confirme a sua Senha</mat-label>
+            <input type="password"
+            matInput 
+            placeholder="Confirmar a senha..."
+            required>
+  
+            <mat-error>
+              <span>
+                As senhas não combinam
+              </span>
+            </mat-error>
+          </mat-form-field>
+  
+        </div>
+  
+        <div>
+          <button class="form"
+          mat-raised-button
+          type="submit"
+          color="primary"><p>Enviar</p></button>
+        </div>
+  
+      </form>
+    </mat-card-content>
+  
+  </mat-card>
+
+</div>
