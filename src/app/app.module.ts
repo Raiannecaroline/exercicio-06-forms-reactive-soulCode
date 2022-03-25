@@ -7,18 +7,22 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormReactiveComponent } from './form-reactive/form-reactive.component';
 import { MaterialModule } from './material/material.module';
 import { FormsModule } from '@angular/forms'
+import { ReactiveFormsModule } from '@angular/forms';
+import { RectiveDialogComponent } from './rective-dialog/rective-dialog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormReactiveComponent
+    FormReactiveComponent,
+    RectiveDialogComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
